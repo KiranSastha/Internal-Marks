@@ -40,7 +40,7 @@ Clone the repo:
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/internal-marks-calculator.git  
+git clone 
 cd internal-marks-calculator  
 Open index.html in your browser to use the static version.
 
@@ -54,7 +54,7 @@ For any questions or clarifications, feel free to reach out to:
 📧 sasthakiran046@gmail.com
 
 🪪 License
-This project is open source and available under the MIT License.
+This project is open source.
 
 Note: This project is actively under development. Further changes will be coming soon!
 
