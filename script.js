@@ -9,7 +9,7 @@ function addSubject() {
     <label>CIA-1 (out of 70): <input type="number" class="cia1"></label>
     <label>CIA-2 (out of 70): <input type="number" class="cia2"></label>
     <label>CIA-3 (out of 100): <input type="number" class="cia3"></label>
-    <label>Teacher mark (y): <input type="number" class="teacher"></label>
+    <label>Teacher mark (out of 15): <input type="number" class="teacher"></label>
   `;
 
   container.appendChild(subjectDiv);
