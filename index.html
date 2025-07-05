@@ -2,17 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Internal Mark Calculator</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
+  <div class="theme-toggle">
+    <button id="toggleTheme">Toggle Theme</button>
+  </div>
+
   <div class="container">
     <h1>Internal Mark Calculator</h1>
     <div id="subjects"></div>
     <button onclick="addSubject()">Add Subject</button>
     <button onclick="calculateAll()">Calculate Internal Marks</button>
+    <button onclick="exportCSV()">Export as CSV</button>
+    <button onclick="exportPDF()">Export as PDF</button>
+    <canvas id="chart" width="400" height="200"></canvas>
     <div id="results"></div>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
